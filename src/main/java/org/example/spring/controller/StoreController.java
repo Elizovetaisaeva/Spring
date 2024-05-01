@@ -26,7 +26,7 @@ public class StoreController {
     @GetMapping("/get")
     public List<Long> get() {
 
-        return List.of();
+        return storeService.get();
     }
 }
 
